@@ -76,6 +76,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5200BA7D28FF5D2D0022EB86 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F38FA9FC2459C47300599E54 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		5200BA7E28FF5D490022EB86 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				F38FA9F52459C47100599E54 /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		5200BA7F28FF5D880022EB86 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F38FAA292459D6B600599E54 /* MovieTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		F38FA9E92459C47100599E54 = {
 			isa = PBXGroup;
 			children = (
@@ -97,13 +121,13 @@
 		F38FA9F42459C47100599E54 /* Rest API */ = {
 			isa = PBXGroup;
 			children = (
+				5200BA7F28FF5D880022EB86 /* Cell */,
+				5200BA7E28FF5D490022EB86 /* Delegate */,
+				5200BA7D28FF5D2D0022EB86 /* Resource */,
 				F38FAA2F2459DCE000599E54 /* Model */,
 				F38FAA2E2459DCD700599E54 /* View */,
 				F38FAA2C2459DCB700599E54 /* Controller */,
 				F38FAA2B2459DCA100599E54 /* Network */,
-				F38FA9F52459C47100599E54 /* AppDelegate.swift */,
-				F38FA9FC2459C47300599E54 /* Assets.xcassets */,
-				F38FA9FE2459C47300599E54 /* LaunchScreen.storyboard */,
 				F38FAA012459C47300599E54 /* Info.plist */,
 			);
 			path = "Rest API";
@@ -129,8 +153,8 @@
 		F38FAA2E2459DCD700599E54 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F38FA9FE2459C47300599E54 /* LaunchScreen.storyboard */,
 				F38FA9F92459C47100599E54 /* Main.storyboard */,
-				F38FAA292459D6B600599E54 /* MovieTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
